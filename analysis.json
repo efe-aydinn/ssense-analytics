@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "n_products": 6000,
+    "n_brands": 23,
+    "n_categories": 9,
+    "note": "Synthetic sample data -- replace ssense_sample.csv with the real Kaggle SSENSE CSV and re-run 01_clean_data.py and 02_analyze.py to regenerate this file with real figures."
+  },
+  "q1_brand_tiers": [
+    {
+      "brand": "The Row",
+      "median": 1575.19,
+      "mean": 2101.04,
+      "count": 281,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Bottega Veneta",
+      "median": 1324.7,
+      "mean": 1779.17,
+      "count": 274,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Balenciaga",
+      "median": 1188.03,
+      "mean": 1558.25,
+      "count": 241,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Loewe",
+      "median": 1090.93,
+      "mean": 1450.62,
+      "count": 268,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Rick Owens",
+      "median": 951.26,
+      "mean": 1225.76,
+      "count": 245,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Maison Margiela",
+      "median": 832.06,
+      "mean": 1131.45,
+      "count": 289,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Ferragamo",
+      "median": 628.21,
+      "mean": 843.07,
+      "count": 239,
+      "tier": "Contemporary"
+    },
+    {
+      "brand": "Marni",
+      "median": 601.58,
+      "mean": 724.48,
+      "count": 276,
+      "tier": "Contemporary"
+    },
+    {
+      "brand": "Comme des Garcons",
+      "median": 593.36,
+      "mean": 898.33,
+      "count": 256,
+      "tier": "High-Luxury"
+    },
+    {
+      "brand": "Isabel Marant",
+      "median": 469.58,
+      "mean": 625.73,
+      "count": 279,
+      "tier": "Contemporary"
+    },
+    {
+      "brand": "Jacquemus",
+      "median": 411.82,
+      "mean": 512.89,
+      "count": 265,
+      "tier": "Contemporary"
+    },
+    {
+      "brand": "Off-White",
+      "median": 395.99,
+      "mean": 474.94,
+      "count": 266,
+      "tier": "Streetwear-Crossover"
+    },
+    {
+      "brand": "Palm Angels",
+      "median": 324.55,
+      "mean": 387.68,
+      "count": 262,
+      "tier": "Streetwear-Crossover"
+    },
+    {
+      "brand": "Kenzo",
+      "median": 269.82,
+      "mean": 319.94,
+      "count": 251,
+      "tier": "Streetwear-Crossover"
+    },
+    {
+      "brand": "Acne Studios",
+      "median": 258.99,
+      "mean": 290.07,
+      "count": 264,
+      "tier": "Entry-Luxury"
+    },
+    {
+      "brand": "AMI Paris",
+      "median": 254.15,
+      "mean": 294.5,
+      "count": 256,
+      "tier": "Entry-Luxury"
+    },
+    {
+      "brand": "Marcelo Burlon",
+      "median": 235.42,
+      "mean": 263.21,
+      "count": 268,
+      "tier": "Streetwear-Crossover"
+    },
+    {
+      "brand": "Fear of God Essentials",
+      "median": 204.11,
+      "mean": 230.12,
+      "count": 268,
+      "tier": "Streetwear-Crossover"
+    },
+    {
+      "brand": "Ganni",
+      "median": 202.68,
+      "mean": 238.14,
+      "count": 243,
+      "tier": "Entry-Luxury"
+    },
+    {
+      "brand": "Axel Arigato",
+      "median": 183.25,
+      "mean": 199.65,
+      "count": 259,
+      "tier": "Entry-Luxury"
+    },
+    {
+      "brand": "A.P.C.",
+      "median": 182.24,
+      "mean": 203.61,
+      "count": 228,
+      "tier": "Entry-Luxury"
+    },
+    {
+      "brand": "Won Hundred",
+      "median": 155.78,
+      "mean": 173.03,
+      "count": 252,
+      "tier": "Entry-Luxury"
+    },
+    {
+      "brand": "Stussy",
+      "median": 128.42,
+      "mean": 144.4,
+      "count": 270,
+      "tier": "Streetwear-Crossover"
+    }
+  ],
+  "q2_category_prices": [
+    {
+      "category": "Bags",
+      "median": 455.62,
+      "mean": 911.76,
+      "min": 74.99,
+      "max": 6687.88,
+      "count": 731
+    },
+    {
+      "category": "Footwear",
+      "median": 435.88,
+      "mean": 783.1,
+      "min": 62.52,
+      "max": 5602.55,
+      "count": 656
+    },
+    {
+      "category": "Outerwear",
+      "median": 433.95,
+      "mean": 813.52,
+      "min": 54.8,
+      "max": 6221.79,
+      "count": 942
+    },
+    {
+      "category": "Knitwear",
+      "median": 374.28,
+      "mean": 718.32,
+      "min": 63.74,
+      "max": 5357.08,
+      "count": 799
+    },
+    {
+      "category": "Bottoms",
+      "median": 373.06,
+      "mean": 744.66,
+      "min": 58.46,
+      "max": 5549.91,
+      "count": 742
+    },
+    {
+      "category": "Denim",
+      "median": 354.8,
+      "mean": 643.22,
+      "min": 55.28,
+      "max": 5283.9,
+      "count": 508
+    },
+    {
+      "category": "Other",
+      "median": 350.48,
+      "mean": 708.8,
+      "min": 67.91,
+      "max": 3950.53,
+      "count": 141
+    },
+    {
+      "category": "Tops",
+      "median": 306.83,
+      "mean": 565.11,
+      "min": 50.11,
+      "max": 4427.81,
+      "count": 740
+    },
+    {
+      "category": "Accessories",
+      "median": 257.89,
+      "mean": 437.92,
+      "min": 40.32,
+      "max": 3721.52,
+      "count": 741
+    }
+  ],
+  "q3_gender_gap": [
+    {
+      "category": "Footwear",
+      "Men": 480.54,
+      "Women": 371.5,
+      "gap_pct": 29.4
+    },
+    {
+      "category": "Denim",
+      "Men": 389.95,
+      "Women": 325.13,
+      "gap_pct": 19.9
+    },
+    {
+      "category": "Bags",
+      "Men": 502.34,
+      "Women": 429.8,
+      "gap_pct": 16.9
+    },
+    {
+      "category": "Tops",
+      "Men": 324.74,
+      "Women": 287.47,
+      "gap_pct": 13.0
+    },
+    {
+      "category": "Other",
+      "Men": 354.32,
+      "Women": 314.74,
+      "gap_pct": 12.6
+    },
+    {
+      "category": "Knitwear",
+      "Men": 380.17,
+      "Women": 341.36,
+      "gap_pct": 11.4
+    },
+    {
+      "category": "Accessories",
+      "Men": 267.12,
+      "Women": 244.0,
+      "gap_pct": 9.5
+    },
+    {
+      "category": "Outerwear",
+      "Men": 451.01,
+      "Women": 418.44,
+      "gap_pct": 7.8
+    },
+    {
+      "category": "Bottoms",
+      "Men": 378.5,
+      "Women": 370.31,
+      "gap_pct": 2.2
+    }
+  ],
+  "q4_availability": {
+    "by_brand": [
+      {
+        "brand": "Off-White",
+        "sold_out_pct": 21.8
+      },
+      {
+        "brand": "Maison Margiela",
+        "sold_out_pct": 18.3
+      },
+      {
+        "brand": "Acne Studios",
+        "sold_out_pct": 18.2
+      },
+      {
+        "brand": "Won Hundred",
+        "sold_out_pct": 17.9
+      },
+      {
+        "brand": "The Row",
+        "sold_out_pct": 17.4
+      },
+      {
+        "brand": "Balenciaga",
+        "sold_out_pct": 17.4
+      },
+      {
+        "brand": "Bottega Veneta",
+        "sold_out_pct": 16.8
+      },
+      {
+        "brand": "Palm Angels",
+        "sold_out_pct": 16.8
+      },
+      {
+        "brand": "Marni",
+        "sold_out_pct": 15.9
+      },
+      {
+        "brand": "Jacquemus",
+        "sold_out_pct": 15.8
+      },
+      {
+        "brand": "Axel Arigato",
+        "sold_out_pct": 15.4
+      },
+      {
+        "brand": "Kenzo",
+        "sold_out_pct": 15.1
+      },
+      {
+        "brand": "A.P.C.",
+        "sold_out_pct": 14.5
+      },
+      {
+        "brand": "Rick Owens",
+        "sold_out_pct": 14.3
+      },
+      {
+        "brand": "Stussy",
+        "sold_out_pct": 14.1
+      },
+      {
+        "brand": "Ganni",
+        "sold_out_pct": 13.6
+      },
+      {
+        "brand": "Isabel Marant",
+        "sold_out_pct": 11.8
+      },
+      {
+        "brand": "Ferragamo",
+        "sold_out_pct": 9.2
+      },
+      {
+        "brand": "Marcelo Burlon",
+        "sold_out_pct": 9.0
+      },
+      {
+        "brand": "Loewe",
+        "sold_out_pct": 7.8
+      },
+      {
+        "brand": "AMI Paris",
+        "sold_out_pct": 6.6
+      },
+      {
+        "brand": "Comme des Garcons",
+        "sold_out_pct": 5.5
+      },
+      {
+        "brand": "Fear of God Essentials",
+        "sold_out_pct": 4.1
+      }
+    ],
+    "by_category": [
+      {
+        "category": "Bottoms",
+        "sold_out_pct": 15.8
+      },
+      {
+        "category": "Tops",
+        "sold_out_pct": 14.3
+      },
+      {
+        "category": "Outerwear",
+        "sold_out_pct": 14.2
+      },
+      {
+        "category": "Denim",
+        "sold_out_pct": 14.0
+      },
+      {
+        "category": "Footwear",
+        "sold_out_pct": 13.9
+      },
+      {
+        "category": "Accessories",
+        "sold_out_pct": 13.5
+      },
+      {
+        "category": "Other",
+        "sold_out_pct": 13.5
+      },
+      {
+        "category": "Bags",
+        "sold_out_pct": 12.9
+      },
+      {
+        "category": "Knitwear",
+        "sold_out_pct": 12.3
+      }
+    ]
+  },
+  "q5_assortment_depth": [
+    {
+      "brand": "Maison Margiela",
+      "sku_count": 289,
+      "min_price": 155.76,
+      "max_price": 3868.8,
+      "price_range": 3713.04
+    },
+    {
+      "brand": "The Row",
+      "sku_count": 281,
+      "min_price": 282.32,
+      "max_price": 6442.7,
+      "price_range": 6160.38
+    },
+    {
+      "brand": "Isabel Marant",
+      "sku_count": 279,
+      "min_price": 124.8,
+      "max_price": 1894.26,
+      "price_range": 1769.46
+    },
+    {
+      "brand": "Marni",
+      "sku_count": 276,
+      "min_price": 146.9,
+      "max_price": 2190.4,
+      "price_range": 2043.5
+    },
+    {
+      "brand": "Bottega Veneta",
+      "sku_count": 274,
+      "min_price": 294.03,
+      "max_price": 6687.88,
+      "price_range": 6393.85
+    },
+    {
+      "brand": "Stussy",
+      "sku_count": 270,
+      "min_price": 40.32,
+      "max_price": 357.89,
+      "price_range": 317.57
+    },
+    {
+      "brand": "Marcelo Burlon",
+      "sku_count": 268,
+      "min_price": 63.22,
+      "max_price": 727.24,
+      "price_range": 664.02
+    },
+    {
+      "brand": "Loewe",
+      "sku_count": 268,
+      "min_price": 207.03,
+      "max_price": 5130.13,
+      "price_range": 4923.1
+    },
+    {
+      "brand": "Fear of God Essentials",
+      "sku_count": 268,
+      "min_price": 57.24,
+      "max_price": 566.93,
+      "price_range": 509.69
+    },
+    {
+      "brand": "Off-White",
+      "sku_count": 266,
+      "min_price": 92.28,
+      "max_price": 1306.3,
+      "price_range": 1214.02
+    },
+    {
+      "brand": "Jacquemus",
+      "sku_count": 265,
+      "min_price": 98.45,
+      "max_price": 1534.19,
+      "price_range": 1435.74
+    },
+    {
+      "brand": "Acne Studios",
+      "sku_count": 264,
+      "min_price": 75.3,
+      "max_price": 743.87,
+      "price_range": 668.57
+    },
+    {
+      "brand": "Palm Angels",
+      "sku_count": 262,
+      "min_price": 93.49,
+      "max_price": 1113.82,
+      "price_range": 1020.33
+    },
+    {
+      "brand": "Axel Arigato",
+      "sku_count": 259,
+      "min_price": 74.67,
+      "max_price": 456.11,
+      "price_range": 381.44
+    },
+    {
+      "brand": "Comme des Garcons",
+      "sku_count": 256,
+      "min_price": 151.26,
+      "max_price": 3277.85,
+      "price_range": 3126.59
+    },
+    {
+      "brand": "AMI Paris",
+      "sku_count": 256,
+      "min_price": 89.38,
+      "max_price": 692.75,
+      "price_range": 603.37
+    },
+    {
+      "brand": "Won Hundred",
+      "sku_count": 252,
+      "min_price": 54.93,
+      "max_price": 423.55,
+      "price_range": 368.62
+    },
+    {
+      "brand": "Kenzo",
+      "sku_count": 251,
+      "min_price": 80.14,
+      "max_price": 890.44,
+      "price_range": 810.3
+    },
+    {
+      "brand": "Rick Owens",
+      "sku_count": 245,
+      "min_price": 209.9,
+      "max_price": 3806.81,
+      "price_range": 3596.91
+    },
+    {
+      "brand": "Ganni",
+      "sku_count": 243,
+      "min_price": 65.45,
+      "max_price": 631.28,
+      "price_range": 565.83
+    },
+    {
+      "brand": "Balenciaga",
+      "sku_count": 241,
+      "min_price": 222.67,
+      "max_price": 5324.63,
+      "price_range": 5101.96
+    },
+    {
+      "brand": "Ferragamo",
+      "sku_count": 239,
+      "min_price": 151.91,
+      "max_price": 2544.61,
+      "price_range": 2392.7
+    },
+    {
+      "brand": "A.P.C.",
+      "sku_count": 228,
+      "min_price": 57.61,
+      "max_price": 601.47,
+      "price_range": 543.86
+    }
+  ]
+}
